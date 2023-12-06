@@ -9,9 +9,6 @@ This webpage by Cannicide provides various versions of SpigotMC documentation, f
 - [1.19.4 Docs](https://spigot.cannicide.net/1.19.4)
 - [1.8.8 Docs](https://spigot.cannicide.net/1.8.8) (note: uses older JavaDoc layout)
 
-> ## I Need Another Version
-If the documentation for the Minecraft version you're looking for isn't listed above, create an Issue on the [Github Repository](https://github.com/Cannicide/dark-spigot-docs/issues). Other than the currently provided versions, versions older than `1.20.3` will not be added unless an Issue is posted specifically requesting it. Documentation for future versions, however, will be added as they are released.
-
 > ## Changelogs
 - v1.1 - 1.20 Expansion - Dec-6-2023
     - Added `1.20.3` documentation
@@ -21,6 +18,7 @@ If the documentation for the Minecraft version you're looking for isn't listed a
     - Added `latest` tag
     - Centralized dark theme styles
     - Fixed table tab styles
+    - Added themed homepage
 - v1.0 - Initial Release - Nov-6-2023
     - Added 1.20.1 documentation
     - Added dark theme styles
