@@ -8,12 +8,15 @@
 :root {
     --text-color: #d7dbd4;
     --secondary-text-color: #b0b0b0;
+    --nav-color: #220000;
+    --nav-text-color: #ffffff;
     --second-nav-color: #2d3135;
     --inner-color: #202020;
     --even-row-color: #101010;
     --odd-row-color: #272727;
     --border-color: #555555;
     --highlight: rgba(255, 255, 255, 0.2);
+    --selected-text-color: #F8981D;
 
     /* Blue text variant */
     --title-color: #b6d0e6;
@@ -63,7 +66,7 @@ a:link, a:visited {
 }
 a[href]:hover, a[href]:focus {
     text-decoration:none;
-    color:#F8981D;
+    color:var(--selected-text-color);
 }
 a[name] {
     color:var(--text-color);
@@ -147,7 +150,7 @@ button {
 }
 .tab {
     background-color:#0066FF;
-    color:#ffffff;
+    color:var(--nav-text-color);
     padding:8px;
     width:5em;
     font-weight:bold;
@@ -172,8 +175,8 @@ button {
     }
 }
 .top-nav {
-    background-color:#220000;
-    color:#FFFFFF;
+    background-color:var(--nav-color);
+    color:var(--nav-text-color);
     float:left;
     padding:0;
     width:100%;
@@ -231,18 +234,18 @@ ul.sub-nav-list li {
     padding-top:10px;
 }
 .top-nav a:link, .top-nav a:active, .top-nav a:visited {
-    color:#FFFFFF;
+    color:var(--nav-text-color);
     text-decoration:none;
     text-transform:uppercase;
 }
 .top-nav a:hover {
     text-decoration:none;
-    color:#F8981D;
+    color:var(--selected-text-color);
     text-transform:uppercase;
 }
 .nav-bar-cell1-rev {
     background-color:var(--highlight);
-    color:#F8981D;
+    color:var(--selected-text-color);
     margin: auto 5px;
     font-weight: bold;
 }
@@ -391,7 +394,7 @@ ul.see-list-long li:not(:last-child):after {
     position:relative;
     text-align:left;
     background-repeat:no-repeat;
-    color:#F8981D;
+    color:var(--selected-text-color);
     font-weight:bold;
     clear:none;
     overflow:hidden;
@@ -432,12 +435,12 @@ div.table-tabs > button {
    margin-right: 3px;
 }
 div.table-tabs > button.active-table-tab {
-   background: var(--highlight);
-   color: #253441;
+   background-image: linear-gradient(to bottom, var(--highlight), var(--highlight)), linear-gradient(to bottom, var(--nav-color), var(--nav-color));
+   color: var(--selected-text-color);
 }
 div.table-tabs > button.table-tab {
-   background: #4D7A97;
-   color: #FFFFFF;
+   background: var(--nav-color);
+   color: var(--text-color);
 }
 .two-column-summary {
     display: grid;
@@ -623,8 +626,8 @@ main, nav, header, footer, section {
     font-weight:bold;
     font-size:15px;
     padding:7px 0 7px 3px;
-    background-color:#220000;
-    color:#FFFFFF;
+    background-color:var(--nav-color);
+    color:var(--nav-text-color);
 }
 .result-item {
     font-size:13px;
