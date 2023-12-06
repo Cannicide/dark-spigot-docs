@@ -25,6 +25,7 @@
                 justify-content: center;
                 align-items: center;
                 overflow-y: auto;
+                flex-wrap: wrap;
             }
 
             #main {
@@ -33,6 +34,7 @@
                 display: flex;
                 flex-direction: column;
                 margin-left: 5px;
+                overflow: hidden;
             }
 
             h1 {
@@ -71,11 +73,12 @@
                 display: flex;
                 gap: 10px;
                 flex-wrap: wrap;
+                align-self: center;
             }
 
             .card {
                 background-color: rgba(212, 26, 150, 0.15);
-                width: 24%;
+                width: 23%;
                 min-width: 200px;
                 min-height: 180px;
                 padding: 10px;
@@ -122,6 +125,7 @@
             footer {
                 margin-top: auto;
                 align-self: center;
+                padding-top: 25px;
                 margin-bottom: 5px;
             }
 
@@ -146,7 +150,7 @@
                 font-variant: small-caps;
             }
 
-            @media only screen and (min-width: 768px) {
+            @media only screen and (min-width: 840px) {
                 #main {
                     width: 50%;
                 }
