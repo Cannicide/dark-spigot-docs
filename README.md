@@ -1,8 +1,9 @@
-# Dark-Themed Spigot Docs v1.1
-This webpage by Cannicide provides various versions of SpigotMC documentation, from 1.8.8 to 1.20.3, with custom dark theme styling.
+# Dark-Themed Spigot Docs v1.2
+This webpage by Cannicide provides various versions of SpigotMC documentation, from 1.8.8 to 1.20.4, with custom dark theme styling.
 
 > ## Currently Available Versions
-- [Latest Docs](https://spigot.cannicide.net/latest) (1.20.3 as of Dec-5-2023)
+- [Latest Docs](https://spigot.cannicide.net/latest) (1.20.4 as of Dec-8-2023)
+- [1.20.4 Docs](https://spigot.cannicide.net/1.20.4)
 - [1.20.3 Docs](https://spigot.cannicide.net/1.20.3)
 - [1.20.2 Docs](https://spigot.cannicide.net/1.20.2)
 - [1.20.1 Docs](https://spigot.cannicide.net/1.20.1)
@@ -10,6 +11,9 @@ This webpage by Cannicide provides various versions of SpigotMC documentation, f
 - [1.8.8 Docs](https://spigot.cannicide.net/1.8.8) (note: uses older JavaDoc layout)
 
 > ## Changelogs
+- v1.2 - 1.20.4 Patch - Dec-8-2023
+    - Added `1.20.4` documentation
+    - Updated `latest` tag
 - v1.1 - 1.20 Expansion - Dec-6-2023
     - Added `1.20.3` documentation
     - Added `1.20.2` documentation
